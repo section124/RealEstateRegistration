@@ -1,0 +1,30 @@
+body {
+    margin:auto;
+   padding: 130px 0;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     color:blue;
+   }
+   
+   label {
+       color:blue;
+       font-family:times new roman;
+       font-size:15px;
+       position:absoulte;
+       text-align:left;
+   }
+   b{
+       color:blue;
+       font-family:times new roman;
+       font-size:15px;
+   }
+   
+   h2{
+       color:blue;
+       font-family:times new roman;
+   }

@@ -1,0 +1,223 @@
+/* Define your default styles for larger screens */
+body {
+    font-family: 'Heebo', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: #010101;
+}
+
+/* Style for the smaller container with class "container-s" */
+.container-s {
+    background-color: #020101; /* Background color for container-s */
+    padding: 20px; /* Add padding to the container-s */
+    border-radius: 8px; /* Add rounded corners */
+    color: #020101; /* Text color */
+    margin: 20px 0; /* Add margin to separate it from other content */
+}
+
+/* Style for the larger container with class "container-xxl" */
+.container-xxl {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(0, 0, 0) !important;
+    color: #faf6f6;
+    /* Your existing styles for container-xxl */
+}
+
+h1{
+    color: #fbfbfb;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #faf6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #f2e7e7;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #0b0808;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #090808;
+}
+
+button[type="submit"] {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #d20707;
+}
+
+/* Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    /* Adjust styles for screens up to 768px wide */
+    .container-xxl {
+        padding: 150px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+/* Style for the accordion container */
+.container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+/* Style for the accordion buttons */
+.accordion-button {
+    background-color: #ffffff;
+    color: #070606;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Style for the collapsed accordion button */
+.accordion-button.collapsed {
+    background-color: #ffffff;
+}
+
+/* Style for the accordion content */
+.accordion-body {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+/* Style for the state titles */
+.state-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style for the state states */
+.state-states {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style for each state state */
+.state-state {
+    margin-bottom: 5px;
+}
+
+/* Style for strong elements within state states */
+.state-states strong {
+    margin-right: 5px;
+    font-weight: bold;
+}
+/* Style for the card */
+.card {
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    color: rgb(246, 240, 240);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Style for the "View Status" button */
+.btn-primary {
+    color: #e6dfdf;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the "Add New Unit" button */
+.btn-primary.add-unit {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+
+.btn-primary.add-unit:hover {
+    background-color: #0056b3;
+}
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+
+    table, th, td {
+        border: 1px solid #ccc;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        color: white;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    tr:nth-child(even) {
+        background-color: #000000;
+    }
+
+    tr:hover {
+        background-color: #3f00fa;
+    }
